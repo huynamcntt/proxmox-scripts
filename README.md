@@ -9,7 +9,7 @@ To create a new LXC container on Proxmox and setup a app to run inside of it, ru
 ***Tested with:*** _proxmox 7.1+, alpine 3.12+, debian 11+, Ubuntu 18+_
 
 ```bash
-bash -c "$(wget --no-cache -qO- https://raw.githubusercontent.com/ej52/proxmox/main/create.sh)"
+bash -c "$(wget --no-cache -qO- https://raw.githubusercontent.com/huynamcntt/proxmox-scripts/main/create.sh)"
 ```
 
 ### Command line arguments
@@ -32,7 +32,7 @@ bash -c "$(wget --no-cache -qO- https://raw.githubusercontent.com/ej52/proxmox/m
 you can set these parameters by appending ` -- <parameter> <value>` like:
 
 ```bash
-bash -c "$(wget --no-cache -qO- https://raw.githubusercontent.com/ej52/proxmox/main/create.sh)" -s --app nginx-proxy-manager --cleanup
+bash -c "$(wget --no-cache -qO- https://raw.githubusercontent.com/huynamcntt/proxmox-scripts/main/create.sh)" -s --app nginx-proxy-manager --cleanup
 ```
 
 ### Console
